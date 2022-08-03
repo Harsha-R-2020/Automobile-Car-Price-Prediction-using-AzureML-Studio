@@ -33,3 +33,12 @@ Demo Images :
 ->predicted Price:
 
 ![image](https://user-images.githubusercontent.com/74779796/182374938-f4a8bfb2-c142-4c5b-9201-27e65fc4f10b.png)
+
+
+Demo video:
+
+
+
+https://user-images.githubusercontent.com/74779796/182600317-3f2f1f8a-56e1-4a71-a0cb-b63327399b5e.mp4
+
+
