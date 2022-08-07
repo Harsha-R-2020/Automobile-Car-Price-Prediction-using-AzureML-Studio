@@ -12,15 +12,54 @@ Project Link : https://gallery.azure.ai/Experiment/Car-Price-Estimator-Predictiv
 
 Tool used : Azure Machine Learning Studio (Classic).
 
+Azume ML Studio:
+Azure Machine Learning studio is a web portal in Azure Machine Learning that contains low-code and no-code options for project authoring and asset management. It's a GUI-based integrated development environment for constructing and operationalizing Machine Learning workflow on Azure.
+
+Steps
+
 Demo Images :
+
+->Data Preprocessing
+
+![image](https://user-images.githubusercontent.com/74779796/183276510-4fba39a9-cef3-470d-8531-d994b43df465.png)
+ 
+ note:
+ The normalized losses has 41 missing values to handel that the missing value rows are dropped from the dataset.
+ 
+ ![image](https://user-images.githubusercontent.com/74779796/183276567-be4e4e41-42ca-41e0-b6f1-07cb83131061.png)
+
+->Feature Selection 
+![image](https://user-images.githubusercontent.com/74779796/183276583-02e8ab5b-4ba3-4045-b4ad-a5bc0c759886.png)
+
+Note:
+The mentioned features are selected from the dataset as the price field depends more on these fields.
+
+-> Training Testing Split
+![image](https://user-images.githubusercontent.com/74779796/183276630-476507c8-b6ab-4f7b-a40a-2f86d2b21fd8.png)
+
+Note:
+The dataset is splitted into training and testing data using split data. 70% of data for training and 30% of data for testing.
 
 ->Model Training Image:
 
-![image](https://user-images.githubusercontent.com/74779796/182373876-8c6816cc-51db-45fb-97d7-ed6c4a0cb74b.png)
+![image](https://user-images.githubusercontent.com/74779796/183276683-205391bd-603f-4178-bf89-165996df667f.png)
+
+Note:
+The model is trained to predict the price column using linear regression algorithm 
+Linear Regression Algorithm :
+Linear regression performs the task to predict a dependent variable value (y) based on a given independent variable (x). So, this regression technique finds out a linear relationship between x (input) and y(output). Hence, the name is Linear Regression.
+In the figure above, X (input) is the work experience and Y (output) is the salary of a person. The regression line is the best fit line for our model.
+Formula :
+Y_i=f(X_i, \beta)+e_i
+
+![image](https://user-images.githubusercontent.com/74779796/183276315-3addcd1c-4ef0-4e09-beb4-66f5a3150ad8.png)
+
 
 ->Model Estimation:
 
-![image](https://user-images.githubusercontent.com/74779796/182374158-2ede7313-de14-4ce8-a85a-ace096c0b330.png)
+![image](https://user-images.githubusercontent.com/74779796/183276416-555a3485-0e0a-4ac1-b788-b388772f673a.png)
+![image](https://user-images.githubusercontent.com/74779796/183276438-f1bdd9fb-659d-4eae-90bc-0a04820e77c3.png)
+
 
 ->Input Data For Prediction:
 
